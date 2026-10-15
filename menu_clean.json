@@ -1,0 +1,754 @@
+{
+  "name": "The Fresh Cup",
+  "tagline": "Cafetería & Bistro Especializado",
+  "cover": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2F1kf4y1bsw?alt=media&token=667feac6-7de4-4543-81e5-6d58bf5db710",
+  "logo": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2F1kf4y21ju?alt=media&token=9c924c94-e8dd-48aa-909d-79921842e1b1",
+  "location": {
+    "address": "8va calle oriente #15, barrio La Parroquia",
+    "city": "Usulután",
+    "department": "Usulután",
+    "country": "El Salvador",
+    "lat": 13.3450542,
+    "lng": -88.4425053
+  },
+  "phones": [
+    "+503 76468648"
+  ],
+  "email": "thefreshcupsv@gmail.com",
+  "social": [
+    {
+      "url": "https://instagram.com/thefreshcup.sv?igshid=vgobqgoj7omv",
+      "id": "instagram"
+    },
+    {
+      "url": "https://www.facebook.com/thefreshcup.sv/",
+      "id": "facebook"
+    },
+    {
+      "url": "https://twitter.com/thefreshcupsv?s=11",
+      "id": "twitter"
+    }
+  ],
+  "categories": [
+    {
+      "id": "syKSEJEiGPbC4F4FnOWB",
+      "name": "Lo Nuevo 🤩",
+      "order": 0,
+      "items": [
+        {
+          "id": "mXY4v2CmXiiAGdIQ6nvV",
+          "name": "La Nena",
+          "description": "Una hamburguesa con actitud y sabor inigualable.\n\nCada bocado es una explosión de intensidad, comenzando con una base de salsa de chorizo y pimentones que aporta un toque ahumado y especiado. Sobre ella, una jugosa carne de res de 150g se derrite con queso cheddar, creando el balance perfecto entre cremosidad y potencia. Jalapeños para el golpe picante, cebolla curtida para un toque ácido y refrescante, y lechuga crujiente que añade frescura. Todo coronado con una sedosa mayonesa de ajos asados y paprika, que redondea la experiencia con profundidad y un sutil ahumado.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1m8g60lsw?alt=media&token=3015aa76-b429-460a-af5c-ec7c9cef9020",
+          "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1m8g60lsw-100x100?alt=media&token=95afeb38-4059-425f-9e74-b1f75805f13d",
+          "prices": [
+            {
+              "label": null,
+              "price": 8.5
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/la_nena.jpg"
+        },
+        {
+          "id": "z1t1CT1KeASg7SZ4WfSy",
+          "name": "Costillas de Elote",
+          "description": "Elote tierno, adobado con mantequilla de ajo y especias, bañado con un barniz de mayo de ajos asados y coronado con un generoso toque de queso duro blando rallado. 🤯🤤",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1m8g5wslb?alt=media&token=019e3bc7-df42-488c-9bb6-e78d9964b3d9",
+          "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1m8g5wslb-100x100?alt=media&token=40afe7d1-e02b-4b90-aed5-f4f563fb9f87",
+          "prices": [
+            {
+              "label": "Sencillas",
+              "price": 4
+            },
+            {
+              "label": "Doble",
+              "price": 6
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/costillas_de_elote.jpg"
+        }
+      ]
+    },
+    {
+      "id": "yF6tW66kKfXJlKbOyAO7",
+      "name": "BURGERS 🍔",
+      "order": 0,
+      "items": [
+        {
+          "id": "NhW7dlhzklyH32oGmOle",
+          "name": "🔥 LA + ORGASMICA (Más pedida)",
+          "description": "Nuestra hamburguesa más vendida... llevada a otro nivel. Doble carne de res jugosa, cheddar premium, mozzarella TFC derretida, tocino importado, cebolla caramelizada, salsa chipotle y nuestro aderezo secreto, todo en un pan de mantequilla suave y recién tostado. Una combinación intensa, cremosa y llena de sabor que hace que la primera mordida sea inolvidable. Si quieres probar la mejor hamburguesa de TFC, empieza por esta. 🔥🍔",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1mo377aa6?alt=media&token=5afc7303-9945-4972-9463-5605e4389d2d",
+          "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1mo377aa6-100x100?alt=media&token=60679932-9e9e-4b37-b251-92fe4df381a8",
+          "prices": [
+            {
+              "label": null,
+              "price": 8.75
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/la_orgasmica_mas_pedida.jpg"
+        },
+        {
+          "id": "sUBZBqHOErbXj6cHdC50",
+          "name": "LA ORGASMICA",
+          "description": "Delicioso y suave pan blanco, lechuga, doble carne de res acompañadas de queso cheddar de la mejor calidad, exquisito orgasmo TFC de mozzarella y tocino importado, aderezos, acompañada de papas francesas al estilo TFC.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1lsdv0g3w?alt=media&token=8a3d1e77-0e3a-4799-a9ed-0fcc080491cd",
+          "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1lsdv0g3w-100x100?alt=media&token=961a45cb-376a-4c78-9dc0-9aac0fe651b3",
+          "prices": [
+            {
+              "label": null,
+              "price": 7.75
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/la_orgasmica.jpg"
+        },
+        {
+          "id": "8k9hZOBtVOQQtia9yueR",
+          "name": "LA BIRRIA BURGER",
+          "description": "-  Delicioso blend de res 125g en baño de caldo de birria\n-  Costra de queso mozarella \n-  5oz de birria de res\n-  Cebollita y cilantro picado con aguacate y finalizada con una deliciosa salsa de jalapeños",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1lsduxjqn?alt=media&token=20482333-0686-4b39-845f-e6b9cd4cf445",
+          "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1lsduxjqn-100x100?alt=media&token=fa31f5fb-9f73-4c24-b25f-d9d2d92f63e0",
+          "prices": [
+            {
+              "label": null,
+              "price": 8.5
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/la_birria_burger.jpg"
+        },
+        {
+          "id": "dlnbzdTzjkZPBmpenqv0",
+          "name": "LA REGIONAL",
+          "description": "Delicioso y suave pan blanco, carne de res en baño BBQ, abundante queso cheddar, cebolla caramelizada, tocino frito con aderezos, acompañada de nuestras deliciosas papas fritas al estilo TFC.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kf4z0t6z?alt=media&token=ca0fe774-015c-4c83-9278-9e16bbf28504",
+          "thumbnail": "https://storage.googleapis.com/bakarta-kustovi.appspot.com/AGCQfuZ8eqqXbpM1svyH/dishes/1kf4z0t6z-100x100?GoogleAccessId=firebase-adminsdk-sjvd0%40bakarta-kustovi.iam.gserviceaccount.com&Expires=16725222000&Signature=m4xqc%2BvgAZR40jEajPtG7Fl03fnCid6WCahUrOTNvj3UhRQVAugtYOsG4FJF5yhXOOwtzMEDZx8t6iY9ProvxTmi5kOAOTEPmp9mkdG%2BizNh4SVRe7qOhZ7SYVmCd3dnu7qUoSAqBPFt1hKbKtXZSJqYAHySbBA6PcfULfrfqN%2Bgo6mt1zS08c0J%2BYECnwm8m1g2Y573Y8luCDr4J0PrrNvgcd1ATTANy8kF3gBdZpmxxAWRiRm1L6mIyWoBVQ%2FygboHgkZvmgkSDNTMzgY%2Fa7fde4lNEjF6b259ofKjadx1%2B%2B8wK%2F3hn8DOLFxnHI6LC9zOvWwvJ0rcvOXsE8jr%2BQ%3D%3D",
+          "prices": [
+            {
+              "label": null,
+              "price": 7
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/la_regional.jpg"
+        },
+        {
+          "id": "owLVx5YIhAa3MiJXX96w",
+          "name": "LA CULONA",
+          "description": "Delicioso pan blanco, lechuga, exquisita carne de res acompañada con queso cheddar y mozzarella de la mejor calidad, aguacate con especias y deliciosas lajas de tocino importado con aderezo, acompañada de papas fritas al estilo TFC y sus aderezos.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1lsdv1mir?alt=media&token=f148b5eb-d31e-4f8b-8f79-2dfc692c66fe",
+          "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1lsdv1mir-100x100?alt=media&token=49d3d573-42f8-4ae6-a3be-f9df6b930623",
+          "prices": [
+            {
+              "label": null,
+              "price": 7
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/la_culona.jpg"
+        },
+        {
+          "id": "yLItZCUMqnfW7HRvzHRa",
+          "name": "LA CLÁSICA",
+          "description": "Delicioso y suave pan blanco, jugosa carne de res, queso cheddar de la mejor calidad, lechuga, tomate orgánico, pepinillos, cebolla y chile verde, aderezo, acompañada de papas fritas al estilo TFC junto con sus aderezos.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kf4yvp2h?alt=media&token=63ee766e-b134-48f1-99f1-8d2104b37d28",
+          "thumbnail": "https://storage.googleapis.com/bakarta-kustovi.appspot.com/AGCQfuZ8eqqXbpM1svyH/dishes/1kf4yvp2h-100x100?GoogleAccessId=firebase-adminsdk-sjvd0%40bakarta-kustovi.iam.gserviceaccount.com&Expires=16725222000&Signature=jjYgtwyXPMpfpgXHbKMg6q6lGm3kMsO4suGNWXnJM2fVTznA2t469A6oyFo9aQJLfK8vR%2B%2BtVgsC0b%2BHCwALejv%2B0TaPS52YlwZ8aV%2FEFiuenCXeCQHSqjXwXtf%2BhmlCjvhbWcNgPhIjOJuzsNnvyhpnWnW7De96SIysLSriOhGYr%2FDQHUoR5VdVxseZ66fYUdXZ9mnHlYokQ0HokjSnpDCaOlynV6C7rEK8Wx3yrt6ZbPXKejkP6q4Py15wgWZJd3HVD9YHmWu%2FvKzt6SHS%2BhgPbjyp2KuoZZANhxTGzuDp1qCEc3TaiN2c4RmM4hyDnq6RPhxjlVWQbjPpSTzUPQ%3D%3D",
+          "prices": [
+            {
+              "label": null,
+              "price": 5.5
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/la_clasica.jpg"
+        },
+        {
+          "id": "uzJH6o4BiOLalTAxiS6b",
+          "name": "LA CHELITA",
+          "description": "Suave pan blanco, jugosa carne de res con queso cheddar, lechuga orgánica, tomate orgánico, cebolla y chiles verde fresco, deliciosa y única crema de hongos TFC, acompañada de papas fritas TFC y sus aderezos.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kf4z5yy7?alt=media&token=d7b6bc2c-9c0f-4638-bc90-7937a9f3bc6b",
+          "thumbnail": "https://storage.googleapis.com/bakarta-kustovi.appspot.com/AGCQfuZ8eqqXbpM1svyH/dishes/1kf4z5yy7-100x100?GoogleAccessId=firebase-adminsdk-sjvd0%40bakarta-kustovi.iam.gserviceaccount.com&Expires=16725222000&Signature=ZuWL7pCGl%2B4s4kzhvmckVnBd9L5ml5K7CCKq89oYWbbogfMI%2FBztC8N4iPIXMiNcmaxHwsCL%2FszjY28%2B99mGW37LwzGw1%2BcLIRIKRf60vAuba6ntdHtPApImWOpEK51j%2FSjBoam1zAn1FVv8hamX1THIDeTt6T2%2FB3Dg%2FYlH0khbQ%2B4Z2EJhrW4R2Ssb37a0PQFVl2uDUAnqNSK4nTrKWwLo5oyqEh7ed0CIE3fIbfeKBPVugNPoF01FGlCUm66bmXzIFtISbrx4weljDmjYCDyAoOth4U0vSVCl%2BtZEKbS1H1%2FRJ3InZ2DbpUMRUxM3EEpSZPuD61ncuDMQO6E44g%3D%3D",
+          "prices": [
+            {
+              "label": null,
+              "price": 6.5
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/la_chelita.jpg"
+        },
+        {
+          "id": "tgZkFSXLpyW1BHNAtXuG",
+          "name": "LA COQUETA",
+          "description": "Delicioso pan blanco, lechuga orgánica, carne de res acompañada de queso cheddar, queso duro a la plancha y rica cebolla curtida, acompañada de sus papas fritas al estilo TFC.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kf4zezf1?alt=media&token=4205b472-3e67-4fa5-bf26-9c80b2a92f3e",
+          "thumbnail": "https://storage.googleapis.com/bakarta-kustovi.appspot.com/AGCQfuZ8eqqXbpM1svyH/dishes/1kf4zezf1-100x100?GoogleAccessId=firebase-adminsdk-sjvd0%40bakarta-kustovi.iam.gserviceaccount.com&Expires=16725222000&Signature=SvsPhAgyiYK61yzx5h0WsNjNWJmGFr9oDe07P9uBwdUduiYlS6a%2B3syEhACYgSuO4kuSDFZwPXMvAkujnCOg%2BpVxdZAZwTlL8zVnDY2IKzVBx%2Fh8W7IsvUM58lXjZDquix3oY4vGf4zz3HqSEmRBlb3elQcb5cX5u93eTpo%2BUFxMKb4bJ%2BSZvdAS0fxA2CZJ3ZzDt5UoNJ035vjgNXhZoMZ2tKhWKHlhAckiujnqkWuAkcl96c%2B45gAxoc3bmJW0Nq8xtF1kbRg3cIiP6dr6gYx2vUkmPrviHmtq9Tv0aqxax8XiH6TTsL0X6ZrAgRKMg5yPPPWRB73tCnUt2Z%2BwZg%3D%3D",
+          "prices": [
+            {
+              "label": null,
+              "price": 7
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/la_coqueta.jpg"
+        },
+        {
+          "id": "wZtzBOs1Ti5y0elCmixj",
+          "name": "LA TÓXICA",
+          "description": "Delicioso pan blanco o negro, lechuga orgánica, jugosa carne de res acompañada de queso cheddar y mozzarella, huevo al sartén con especias y delicioso tocino ahumado, acompañada de sus papas fritas y aderezos.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kv1ef23b?alt=media&token=7462eb34-6cd4-4aec-a01a-584521077d9d",
+          "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kv1ef23b-100x100?alt=media&token=e0eb8a0b-2a84-45e5-936f-146503100d20",
+          "prices": [
+            {
+              "label": null,
+              "price": 7
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/la_toxica.jpg"
+        },
+        {
+          "id": "d4oMn15Q6indezV85lB2",
+          "name": "LA PERFECTA",
+          "description": "Delicioso y suave pan blanco, lechuga, doble carne de res acompañadas de queso cheddar y mozzarella de la mejor calidad, pepinillos, tocino importado, aderezos y acompañada de papas francesas al estilo TFC.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kf4zdqjr?alt=media&token=15c204c5-5045-4d06-aa09-6e03f98e025c",
+          "thumbnail": "https://storage.googleapis.com/bakarta-kustovi.appspot.com/AGCQfuZ8eqqXbpM1svyH/dishes/1kf4zdqjr-100x100?GoogleAccessId=firebase-adminsdk-sjvd0%40bakarta-kustovi.iam.gserviceaccount.com&Expires=16725222000&Signature=BxaQCq3XzDY4cvlvQVguCFtt%2FZLSL37GgvGgoKb3KPZ%2B6QWBi6UEjae5bgS2sDWdGkfaiweoSnGRIi9WBuPKyRO6H8RpvD64A3ykwIwEfqY2L%2B5IcDaGGsQYDDZHVe4mTf0E8VRnA8PV%2FzmRjfC8pZVrcc2AMDtcsxq6EbiY4vLFZefF7cX1VZAT1%2Bo%2F8Tnc0%2FNDhHd%2FWlggzSH2qvSYOc8F%2F9G%2FO7tQ%2Bu0evagU3UxyDWdOdkRvWH66P9%2Bo1knsEGuiCNYvPlYTJdW5G7j15uVYfi6F8JaT3ZwSOiS4tOxVC6N1dJl5b0ULALGvOt5A%2BIbGC3aY5b4BKtK3GGj46g%3D%3D",
+          "prices": [
+            {
+              "label": null,
+              "price": 7.75
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/la_perfecta.jpg"
+        },
+        {
+          "id": "o93S8qyYuiSwUYv4OK5q",
+          "name": "LA CHICKEN",
+          "description": "Suave pan blanco, deliciosa pechuga de pollo marinada y empanizada a lo TFC, queso mozzarella de la mejor calidad, pepinillos, tomate orgánico, lechuga, cebolla y su aderezo secreto, acompañadas de exquisitas papas fritas.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kf4za6mb?alt=media&token=06e05603-dc74-4b67-bf23-5c05989d1c1e",
+          "thumbnail": "https://storage.googleapis.com/bakarta-kustovi.appspot.com/AGCQfuZ8eqqXbpM1svyH/dishes/1kf4za6mb-100x100?GoogleAccessId=firebase-adminsdk-sjvd0%40bakarta-kustovi.iam.gserviceaccount.com&Expires=16725222000&Signature=EGjsPIMyY7xbrhTS6KCBdVCz0%2F%2BR%2BaXkfOJxBD0lggIui%2FfjjUSLHMKRCQHHwgNMRDfqK4Mho6VCsk8b7P97rCjFSkaLMavrzut2WqT6cr8Ie3jN2YgchiemXd3W6YI5tLDqUN5JqEItL7EClBgmJhGux2Mo44ovS0GU15Y69J%2BNXwJVm5y7VEid2ty2G6j4TFgzQ1Q1xFHRtjlNmxjM%2FhISLR7jSkMt8%2FoTR2mwxQiPJoefJhXjoRmY%2B8k78uQZHHlfRV%2Fr31JnORtYLkkW7UV86tXWqNrCedGIM%2FOUmwNTDYmwf3rg6OFXA6n4TMM9%2FRNq9rmpoh5BxzLUK6D%2B%2Bw%3D%3D",
+          "prices": [
+            {
+              "label": null,
+              "price": 6.25
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/la_chicken.jpg"
+        },
+        {
+          "id": "Qe5pq1Qy5PIouINMiqIC",
+          "name": "LA MORENITA",
+          "description": "Suave y delicioso pan blanco, jugosa carne de res con queso cheddar, lechuga orgánica, tomate orgánico, cebolla y chiles verde, deliciosa cebollita caramelizada TFC, acompañada de papas fritas TFC y sus aderezos.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kf4z7il5?alt=media&token=10bf7d81-22ee-4e2f-8edb-f6d9c3fed0bc",
+          "thumbnail": "https://storage.googleapis.com/bakarta-kustovi.appspot.com/AGCQfuZ8eqqXbpM1svyH/dishes/1kf4z7il5-100x100?GoogleAccessId=firebase-adminsdk-sjvd0%40bakarta-kustovi.iam.gserviceaccount.com&Expires=16725222000&Signature=SR31MnYU5H%2BQRVStwgOM%2BiM%2B2pw06uk0Jk2dmpM3f86PX9ZQAsJXjKh2va7VgPyFo5%2F3Xk5Pc5JPST0d1i7APpJROs2siR54BP5JvJB%2Bg1gSVD6APUZJz%2B%2BLTt5f00HXkdeFJF3%2B8ScSJqeU%2FrjUK729xHpTA1q6VeDS%2BdvEvfCJswlLdqtMs%2F2j%2F6dT6fPkJZLdbwfcnZ3gIDOpxI8nCdOKXT2XftOoQox%2B%2BaQLXo8Ucz4ktLMW16UwV3Paa745JzqJukgO0q6dEdty6j8C%2Fj0ae%2B1J0nEV5VGpGP0Tdtg28o%2F8mjNYuUBAXUdfZpBBVWowSTaDhWXcuhuVh%2Bx1jA%3D%3D",
+          "prices": [
+            {
+              "label": null,
+              "price": 6.5
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/la_morenita.jpg"
+        }
+      ]
+    },
+    {
+      "id": "3YkFr3F0JRwTcP1mx6iN",
+      "name": "FRITOS 🍗",
+      "order": 1,
+      "items": [
+        {
+          "id": "cChfSWRLlBlbI7uOQZe6",
+          "name": "ALITAS FRITAS",
+          "description": "Orden de alitas de 10 y 12 unidades (BBQ o búfalo), con papas fritas al estilo TFC + sus aderezos.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kf4zkbsg?alt=media&token=c2f5a4c9-8b50-42a3-96f9-a1feebd1ee7d",
+          "thumbnail": "https://storage.googleapis.com/bakarta-kustovi.appspot.com/AGCQfuZ8eqqXbpM1svyH/dishes/1kf4zkbsg-100x100?GoogleAccessId=firebase-adminsdk-sjvd0%40bakarta-kustovi.iam.gserviceaccount.com&Expires=16725222000&Signature=dAlS1zKDjiTYuIKwpedzrM3Ix9%2BZRmcUDDJK2A4dsH3iNN3u8fNF%2BBH6%2BHyXx0HW70lQoN9ojjWQ6hRaydEaBx3GQo5kx0EqpvrO%2BezhHPN9FUBPUWCyFb8Rt0zDmyad%2FnK7AstaS7LbcYvBOl8lJzHCy3GImIY%2BoTBfT%2BCmQ3kFVEzzZgv1AdbOPJZwpPBDSqpTOGN8kEzBltRcgakZKgo64E%2FyJ5pYJQVhpw6asQrcvd%2F8kiLpDFl%2BoKGgmb8LwrPelvbf7lY5SFJo%2BmHh52O363UlflbL8%2FuXo7GEcSj8BYj0GS9K9aIy7ALnCo0e1WHp%2BUYn0Naz0XBaz3MEYA%3D%3D",
+          "prices": [
+            {
+              "label": "10 alitas",
+              "price": 9.5
+            },
+            {
+              "label": "12 alitas",
+              "price": 10.5
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/alitas_fritas.jpg"
+        },
+        {
+          "id": "pjQcpu9A7tyKwIipqU6O",
+          "name": "COSTILLA DE CERDO 1 LB",
+          "description": "1 libra de costillas de cerdo riblet en baño BBQ, búfalo o fritas, acompañadas de papas fritas al estilo TFC + aderezos y cebolla curtida.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kf4zobqg?alt=media&token=0041b4ea-3228-4501-8314-529584592926",
+          "thumbnail": "https://storage.googleapis.com/bakarta-kustovi.appspot.com/AGCQfuZ8eqqXbpM1svyH/dishes/1kf4zobqg-100x100?GoogleAccessId=firebase-adminsdk-sjvd0%40bakarta-kustovi.iam.gserviceaccount.com&Expires=16725222000&Signature=Ixv5QnqVKhCkr7qHEzUmipF2T5bDRJCF9XqYNTsB6krOf7hLJRUS4y16WJhGp8bDVVZI5pD7s6RX1KKisEmyGiKsoSb4jcydMwV51qMRnVqoZhvkgYd8Fg9SIO7RC49lEv%2BWDxGasCvuiVft20owAHeGaz4DbGc9qswGt5rORVaLJUS9o0vS%2F%2FpwV6frtj4JPlMvygXMhe6IzCpzRkDuzFinQ70d9197RbH0omb6JV5wGqI5jzN2I0eFdrN%2BPTF5MlVwF2YvQjGPZXtSfD4Np%2BNXd9f5sKS8R2gYXpyqrk7eoqPEQdu50Bjli6hMMG88sroyo%2BkX7sHAEXk2fVzrwQ%3D%3D",
+          "prices": [
+            {
+              "label": null,
+              "price": 7.5
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/costilla_de_cerdo_1_lb.jpg"
+        }
+      ]
+    },
+    {
+      "id": "223cNWlnIv1KFLe7d8JK",
+      "name": "FRIES 🍟",
+      "order": 2,
+      "items": [
+        {
+          "id": "l3pipRVdi33bJr2ZfmXj",
+          "name": "CHICKEN FRIES",
+          "description": "Deliciosas papas fritas TFC, tiras de exquisito pollo empanizado, gratinado de mozzarella, queso cheddar derretido y aderezo con especias + su aderezo ketchup. 😍",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kf4zracr?alt=media&token=d08f3722-abd7-4606-b57c-ee4cf2332689",
+          "thumbnail": "https://storage.googleapis.com/bakarta-kustovi.appspot.com/AGCQfuZ8eqqXbpM1svyH/dishes/1kf4zracr-100x100?GoogleAccessId=firebase-adminsdk-sjvd0%40bakarta-kustovi.iam.gserviceaccount.com&Expires=16725222000&Signature=MiOmXPE3kvUXzFwnaU6KFruSxZqEKlyB3Y9yk5S54OYruTmbhT%2FhlKXN1LxI7EbSml0enfF6%2BFmAmydjKP%2BrabTxWvzwCr4Cn%2FqiIoQTD2fxK1Z0G0bZD77uuq8A0ThbyJ44zlMqIPGSOeYZm7MBDzDqzAHa6txIHznNA5DrKu7W9mrtLinl3GQs%2FW7uBsGMI4abTNky9LUhxFv2bvRV5f69MjkjxDGl6JIUGbO2CMSUXlK%2BKSNumZaXy6gtdtRs63YchSEuSjwqTaCxIpXAYFaxCKYu76iOw8orlzpTowjpL8ZF45e29dkba2uC%2BxmW3jU486L5LzF1C0hDy0hiZA%3D%3D",
+          "prices": [
+            {
+              "label": null,
+              "price": 6.5
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/chicken_fries.jpg"
+        },
+        {
+          "id": "tPPqHG15v8xnZMwr3s3K",
+          "name": "DEDITOS DE QUESO",
+          "description": "Dedos de queso empanizados con relleno de queso mozzarella, cuenta con 8 unidades y porción de papas.",
+          "image": null,
+          "thumbnail": null,
+          "prices": [
+            {
+              "label": null,
+              "price": 6
+            }
+          ],
+          "allergens": []
+        },
+        {
+          "id": "q0E8psQDb8ncYfPUIJcY",
+          "name": "PAPITAS TRADI",
+          "description": "Orden de papas fritas sazonadas al estilo TFC, acompañadas de Ketchup, Mayo y queso cheddar derretido. ❤️",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kf4zswer?alt=media&token=4e7c166c-7f56-4f6e-86fc-740612b3fc03",
+          "thumbnail": "https://storage.googleapis.com/bakarta-kustovi.appspot.com/AGCQfuZ8eqqXbpM1svyH/dishes/1kf4zswer-100x100?GoogleAccessId=firebase-adminsdk-sjvd0%40bakarta-kustovi.iam.gserviceaccount.com&Expires=16725222000&Signature=QO1E8I9tZR3%2Bml0m9GLhStYS5DPlQZ3L1mxlIPH%2FLzTDOVMi2FHsNsqYIBb43D2syG5Yw75Mvh8o8BIkxRUha1rYmOhBuRT57FJcqeGMSX4R7O3ukpC9FreRzmobaIHkrvgWRZAwuNso3nFxagJZ4w6vfHw84PrEkC5Y%2BjOI4PjHpgTERi9skYtGvh6OnihcuxLL9%2Fr%2BZN%2BhCpmqk1ThWV2j%2BEXS7pDzu3QcFXsi8xmAxk0jdIJHPRZ2VzHn1A0jdHrnWYY%2F%2BSyX6JDLQplkzZEo0IHcQGmvhtNXZbB4gXZogCwgbCklScjgF8bNOr4W26Fk4aefD0JBnrjsrZUMzw%3D%3D",
+          "prices": [
+            {
+              "label": null,
+              "price": 2.5
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/papitas_tradi.jpg"
+        }
+      ]
+    },
+    {
+      "id": "HC2GkY2F4Gv5sz6FF0Kk",
+      "name": "LO FRESH 🥗",
+      "order": 3,
+      "items": [
+        {
+          "id": "a92eIaTC1MrWCvDKCtfg",
+          "name": "PANINI DE FILETE",
+          "description": "Delicioso pan baguette, acompañado de deliciosa pechuga de pollo marinada y al sartén, queso cheddar, lechuga, tomate orgánico, cebolla, chile verde, aceitunas y aderezo, acompañado de papas fritas y sus aderezos.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kf4zvb87?alt=media&token=2a14dc43-7f10-410b-8c53-61ea74d76783",
+          "thumbnail": "https://storage.googleapis.com/bakarta-kustovi.appspot.com/AGCQfuZ8eqqXbpM1svyH/dishes/1kf4zvb87-100x100?GoogleAccessId=firebase-adminsdk-sjvd0%40bakarta-kustovi.iam.gserviceaccount.com&Expires=16725222000&Signature=rctBOHR%2BLfnPm2FG7twYH2Tm59WsrynA29BmB%2B%2Fi0NHU1LVhLDuNKG7opzHGc8k177N4ak8XZJzCwN6Yee4WiC6eX0YUlmYAMbT%2FAQrGQDyhn8%2BEjL9P%2FmB6YctZmO0elJJiMx5%2BQleMjXEkrVTRpVPVwc0NmB%2F0ZtWwp1lA38y0nyVZWlP7jw13T%2FXzlEYkKxmZhmvd7Sy%2FPiCUzn%2Bp38MEymvupdjs%2FZ6Etfer8HqMKr7O36EDp5lJFE%2Bi0dImg8EvVAU1hLCUibJzipKOL7BcBu9DaW5nRWNS0yByIbpsyFSdZn7GbzboyrtlaWQcD62TOFnXgOCmbrIlgmIwdg%3D%3D",
+          "prices": [
+            {
+              "label": null,
+              "price": 5
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/panini_de_filete.jpg"
+        },
+        {
+          "id": "BA8hiKDtEDmxQpBuYOEM",
+          "name": "CHICKEN SALAD",
+          "description": "Delicioso mix de lechuga, tomate orgánico, zanahoria rallada y pepino en trozos, acompañados de trocitos de pollo al sartén, queso mozzarella rallado y su aderezo césar con pequeñas porciones de baguette.",
+          "image": null,
+          "thumbnail": null,
+          "prices": [
+            {
+              "label": null,
+              "price": 5.75
+            }
+          ],
+          "allergens": []
+        },
+        {
+          "id": "VQabWRATsoVx8Su4YUTU",
+          "name": "PAN CON AJO",
+          "description": "Delicioso baguette cortado en 6 partes, con mantequilla de ajo de la casa y queso mozzarella derretido.",
+          "image": null,
+          "thumbnail": null,
+          "prices": [
+            {
+              "label": null,
+              "price": 2.5
+            }
+          ],
+          "allergens": []
+        }
+      ]
+    },
+    {
+      "id": "5yILUDddpeU2J3RX7QVL",
+      "name": "BEBIDAS 🥤",
+      "order": 4,
+      "items": [
+        {
+          "id": "BSvy1VR1mi2gV8Cne9r8",
+          "name": "LIMONADA ROSA",
+          "description": "Deliciosa y refrescante limonada natural combinada con fresas y endulzante.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kf50dawo?alt=media&token=2e1faa04-a433-4bd7-be5a-4659dec686ac",
+          "thumbnail": "https://storage.googleapis.com/bakarta-kustovi.appspot.com/AGCQfuZ8eqqXbpM1svyH/dishes/1kf50dawo-100x100?GoogleAccessId=firebase-adminsdk-sjvd0%40bakarta-kustovi.iam.gserviceaccount.com&Expires=16725222000&Signature=yhYIaZ5DMFUToWJjufxuFa%2Bgm7tRQYx664%2BglhnslR6L1MZaxUJPVPQAYfs79oWMHfYASlJ2kKb2zk3YMr4yPpsp8MtBnaDktgJ9S%2BFU%2BT6w0bzyqRkxI8n56N2nNEmvZg6je%2FhKdLligaA7kw6cVRsL75BOG%2BkFnKDzrjZFpN7DnwyHc%2BJwyfxKkm7J4bJPaCYzRZU9gHknnxQR7ZsfCjxhGEdwoOmrHVF3DFDh5l14ee1%2F7ojFlLpcPj7pnRHMCKbnwmqUYG1%2BKyvNKSbFTsauNRn7nEEw5kaELDSev7taYboLXu2pGc%2BMGV1ruV4Pol20OJKOAx7G5rHcXeETLw%3D%3D",
+          "prices": [
+            {
+              "label": "20 oz",
+              "price": 2.5
+            },
+            {
+              "label": "16 oz",
+              "price": 2
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/limonada_rosa.jpg"
+        },
+        {
+          "id": "TypFDp76sCl9RsOyUd19",
+          "name": "LIMONADA CON HIERBABUENA",
+          "description": "",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1la8w3bzk?alt=media&token=a1152fb5-07d2-4728-9444-21dc3aeb87ec",
+          "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1la8w3bzk-100x100?alt=media&token=fee75ebb-6514-425b-83c9-dd0f1fe318af",
+          "prices": [
+            {
+              "label": "20 oz",
+              "price": 2.5
+            },
+            {
+              "label": "16 oz",
+              "price": 2
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/limonada_con_hierbabuena.jpg"
+        },
+        {
+          "id": "9VQqPNP67VYjasXyw1YH",
+          "name": "BLACKLEMONADE",
+          "description": "Refrescante limonada elaborada con jugo natural de limón e infusión de carbón activado de grado alimentario, que le otorga su distintivo color negro con un balance cítrico y revitalizante.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kw6tukdd?alt=media&token=2abaa106-7d65-4b32-84ea-7bc77c8d27ff",
+          "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kw6tukdd-100x100?alt=media&token=457261aa-7f8c-4329-a854-910ca7cffa0b",
+          "prices": [
+            {
+              "label": "16 oz",
+              "price": 2.5
+            },
+            {
+              "label": "20 oz",
+              "price": 3
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/blacklemonade.jpg"
+        },
+        {
+          "id": "kvK53XEGpNqKcg79PJ6z",
+          "name": "TARO",
+          "description": "Exquisita bebida preparada a base de raíz de taro, con notas suaves, textura cremosa y un delicado toque dulce avainillado y a nuez. Disponible en infusión caliente, fría o smoothie.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kf51ajn0?alt=media&token=cfa53732-cff2-4cf2-92a1-9cd4e4f91d69",
+          "thumbnail": "https://storage.googleapis.com/bakarta-kustovi.appspot.com/AGCQfuZ8eqqXbpM1svyH/dishes/1kf51ajn0-100x100?GoogleAccessId=firebase-adminsdk-sjvd0%40bakarta-kustovi.iam.gserviceaccount.com&Expires=16725222000&Signature=Uxm7yzmNeiW3S4RnKcQ7IXtoVs8nR6ts782CWH0fyU9ODGdhmAA3PJ%2BEQGKPuI9Alb7cIKZlFxPodEEQEujEm54w02Z4o95fGTLjp5mDebaUlmCGvCi%2FfGk2ErkYKbiVsOmX4y82b%2BlbrQWUA4T1Y%2F%2BAROezPUCopEgrDQXwxHlAs0KZsOXtrEdhxfTZPQnxH3ZyQHgbTGQap4Vyk3ofbRjpNeVYpch9OU14g3%2Bu%2FOBX2%2BTKRWNU8XHAjWjQqRIiLDqTtpvzfXsQ%2FZGiUdIBjUdF5ptKRFSdqqKpMbniGzyPyR%2F9Y3eDz5Tb2UAawwDxmbelvzqOjq1w18ZF1Z%2Bvxw%3D%3D",
+          "prices": [
+            {
+              "label": "20 oz",
+              "price": 4
+            },
+            {
+              "label": "16 oz",
+              "price": 3.5
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/taro.jpg"
+        },
+        {
+          "id": "BuHFxnATxTidb1WT1Mzy",
+          "name": "TE CHAI",
+          "description": "El té chai es un té verde o negro, que se prepara aromatizado con especias como por ejemplo, canela, clavo, jengibre, cardamomo, nuez moscada y vainilla, entre otros.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kf50yxud?alt=media&token=9cab2514-bf9e-44dc-93d5-9ee343c9c0b5",
+          "thumbnail": "https://storage.googleapis.com/bakarta-kustovi.appspot.com/AGCQfuZ8eqqXbpM1svyH/dishes/1kf50yxud-100x100?GoogleAccessId=firebase-adminsdk-sjvd0%40bakarta-kustovi.iam.gserviceaccount.com&Expires=16725222000&Signature=QX5qp1HLJKrbmJkk1iK6lQCCeguGnxGzg4rvHEfAYOxZ%2FvNqWx9oLgGG4TFU%2BQBmaO9A8u5i%2FNwLvEvvxFOElXNP7RDw9csIWkRlDDoikvGabTYTj66xF6jtjDVKdSWOIv45NDEs%2F3JgIZsqXgsqZ9Nrj5dWtkZ56UKPWy2MNJoAvZaO7gII6DbkzQc8U6YR1lCS7W2l%2FmY6ONnVdBARTloshCTM5ECLV5ypGQguiLdngmlyFII6GbPnh%2BCnQA8f8u6x7mMmZPQNDMsKEI1EUnYlMYrnuYOhXFinZ4KNDVXIxCisved4KgKpgafwIetyGl1wVMi%2FQCplXY%2FE3MBbOg%3D%3D",
+          "prices": [
+            {
+              "label": "16 oz",
+              "price": 3.5
+            },
+            {
+              "label": "20 oz",
+              "price": 4
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/te_chai.jpg"
+        },
+        {
+          "id": "OmJq0fV6SdQznWhIYIDn",
+          "name": "FRAPPES",
+          "description": "Deliciosa bebida helada, a base de mocca, leche y granizado a elegir entre chocolate o caramelo.",
+          "image": null,
+          "thumbnail": null,
+          "prices": [
+            {
+              "label": "16 oz",
+              "price": 3.5
+            },
+            {
+              "label": "20 oz",
+              "price": 4
+            }
+          ],
+          "allergens": []
+        },
+        {
+          "id": "9GHNiyyI0Tmxgb5q9Uq6",
+          "name": "FROZEN NATURAL",
+          "description": "Fresa, banano, piña, sandía, melón, digestivo, papaya.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kf50fqr2?alt=media&token=401903c7-880e-4e1d-a503-742472040f2f",
+          "thumbnail": "https://storage.googleapis.com/bakarta-kustovi.appspot.com/AGCQfuZ8eqqXbpM1svyH/dishes/1kf50fqr2-100x100?GoogleAccessId=firebase-adminsdk-sjvd0%40bakarta-kustovi.iam.gserviceaccount.com&Expires=16725222000&Signature=bA1td9zxy3n5AX0N0IMR88Z84oylk2l9V5w%2FH9hf2LF1EBJNFjWObyp%2BxGoV%2BQu1rJpJMONjI2F8S8NSyqsQz0yVwtrn3EpVJfxYsnaxm1X68GApBDz04UZTjOQ%2F7PxOCdy2OilZHy0KqseokPIXZpbXmd0KNImeO6Tpak54cJTN8pAyNlTvFvggCsqVCLFe0WMAZT8v2JSneo%2BMSzjplm26Dfu6Hp4BJNGt6nF6nsaOBzu7lTOzLk%2FpyceEZ53xlcNdebzHo%2BcSBaacdpFELp4K7pDkJKOyMbTVV1QzYcB1WNO6gbvuTbYmgyDiORwS0qKYibcZSbeaXGTmLulqcA%3D%3D",
+          "prices": [
+            {
+              "label": "16 oz",
+              "price": 3
+            },
+            {
+              "label": "20 oz",
+              "price": 3.5
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/frozen_natural.jpg"
+        },
+        {
+          "id": "g3qBSGA5FChBJMMFZXtd",
+          "name": "TOPPING TAPIOCA",
+          "description": "topping de booba para tu bebida favorita.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kyup4cji?alt=media&token=05c1b4c4-0d2c-40f5-b128-9515738c45b3",
+          "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kyup4cji-100x100?alt=media&token=72888510-773a-4829-8662-c068b8da135e",
+          "prices": [
+            {
+              "label": null,
+              "price": 0.5
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/topping_tapioca.jpg"
+        },
+        {
+          "id": "6oSsLd0cQm82lyt5E5lt",
+          "name": "TÉ DE LIMÓN",
+          "description": "",
+          "image": null,
+          "thumbnail": null,
+          "prices": [
+            {
+              "label": "20 oz",
+              "price": 2.5
+            },
+            {
+              "label": "16 oz",
+              "price": 2
+            }
+          ],
+          "allergens": []
+        },
+        {
+          "id": "6Xa5eTskj7Co7Yxx0M2j",
+          "name": "COCA-COLA",
+          "description": "FANTA, FRESA, UVA, SPRITE, FRESCA, CREMASODA.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kf51t4ug?alt=media&token=ea946583-c1e5-405b-8273-4d288a0a89c6",
+          "thumbnail": "https://storage.googleapis.com/bakarta-kustovi.appspot.com/AGCQfuZ8eqqXbpM1svyH/dishes/1kf51t4ug-100x100?GoogleAccessId=firebase-adminsdk-sjvd0%40bakarta-kustovi.iam.gserviceaccount.com&Expires=16725222000&Signature=APIP4xhm6luyIX4AZVhNNR%2FpZdQGMLBEbjXQRkA%2BdA8LImNNIjmKNicLxwV2K0WgPDn%2BqZLGH%2FBteS9ul4V76a%2F2S6e%2FeK4BYp9yN6meHuhTqWXBJiDrhI7O%2B3IFqHBWNA7ni7ThtWI62nUj3PtS73nxrtN5cdiHmIeC53S3NXQPnBoEdOmSUDOF%2BByQQKVnjpUceaKdBbqvATuKQUKNrTyPfXkzFHcsV%2FUUmQWkKCU6bq2zlbgEdESC%2FPK10SRq7yjDEsQ1rhmWhNOwHgXwsX5iSNyqLE6pTgsYPfU0vUVUFVfkc1Tys3unQ9jweHMWCreksrbQ1UHQHeox8TswhA%3D%3D",
+          "prices": [
+            {
+              "label": null,
+              "price": 1.75
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/coca_cola.jpg"
+        },
+        {
+          "id": "4Q8ioaMrWg3qN6wWgszN",
+          "name": "GINGER ALE",
+          "description": "",
+          "image": null,
+          "thumbnail": null,
+          "prices": [
+            {
+              "label": null,
+              "price": 2.5
+            }
+          ],
+          "allergens": []
+        }
+      ]
+    },
+    {
+      "id": "c1vgybeMZkbIRJs5Win0",
+      "name": "BEBIDAS CALIENTES ☕️",
+      "order": 5,
+      "items": [
+        {
+          "id": "ZVYEqWYLJ14GjwcBALgJ",
+          "name": "AMERICANO",
+          "description": "El Café Americano es un tipo de café que se prepara añadiendo agua caliente a un espresso. \nAsí el café es más suave, aunque tiene un sabor diferente del café regular de filtro",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kf524fmq?alt=media&token=a6907b85-f2f2-4d65-a2a5-9365d334b6de",
+          "thumbnail": "https://storage.googleapis.com/bakarta-kustovi.appspot.com/AGCQfuZ8eqqXbpM1svyH/dishes/1kf524fmq-100x100?GoogleAccessId=firebase-adminsdk-sjvd0%40bakarta-kustovi.iam.gserviceaccount.com&Expires=16725222000&Signature=Ql7t7B9nDf5B2ShCxwc7wTcyOi%2BSfAdnt4kaMJiVjKmEgtRKcsDGXHi%2FOkAvPqClhU9riR3nIH53gYrp8TaD7rMba1n3Ek775zs8Wc8cir7heReqjrdhaoQ6J1FXktSHJdDGnJT5d%2BJzlIzwncdUMcAtO%2BuH6f3UjwN0eqhd2VicE4Q6AoZMiKglm85z0QxVNxgu%2F9wjRmqA84dRI%2BthW56j8UjbQsAj6%2FsnATKE%2ByxneSZ%2F6womavjPh8zmlTilnqIfDcLQdLVToDwobLjf4N6whBi8f6bWaAfx8nR7Id9cTq5nXmBF2%2FwXdPM%2F74W9ZToK9Q3d%2BcnPTW%2FfBhi%2Fag%3D%3D",
+          "prices": [
+            {
+              "label": null,
+              "price": 2.5
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/americano.jpg"
+        },
+        {
+          "id": "cs1uFUMrSFeLwZPtgVsx",
+          "name": "PACAMARA",
+          "description": "El Pacamara es uno de nuestros cafés favoritos, no sólo por su gran tamaño sino por su diversidad de sabores en taza. En su mayoría, los Pacamara tienen sabores intensamente dulces a frutas, chocolates, caramelos. Hemos encontrado Pacamaras con altas notas florales, en su mayoría a flores blancas tipo gardenias o jazmines. El posgusto prolongado siempre con notas dulce intensa.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kf52eszp?alt=media&token=07f38b9e-6cb8-4711-b107-7c88cbee8902",
+          "thumbnail": "https://storage.googleapis.com/bakarta-kustovi.appspot.com/AGCQfuZ8eqqXbpM1svyH/dishes/1kf52eszp-100x100?GoogleAccessId=firebase-adminsdk-sjvd0%40bakarta-kustovi.iam.gserviceaccount.com&Expires=16725222000&Signature=e76VMAVsR%2B4rKgPhOOT%2Bk9%2FjAEvSpleV1jbItURYKkBs0TNYSZSqfF9m%2FnVMXPjn5m6s7NuvRxPLCbAb%2B8xi8BRnpGM4DyLvdtCqVifSeuu%2BhhAFXgxoghQb3bPwmiP7icZxAvxC9JCGGDPZuf9rMgB64%2BnGHDgRkqdeB4PPB%2F8WPUEmDwZXGaVkmhgMRjMXbPyckdgDlq65Aeif1iupYvmRJ%2BKnh9nFHC9BWdphMlmQRhIg6LKPmkEdA3z3RcXI9MgYlS5JEc5CcdntHN%2BOShg1pV5OGFlGf6VBGEUfvqLhECIKXIOlzdW38vWzJjPWeuDEzhSKXB8b1w%2Bw0uRe6A%3D%3D",
+          "prices": [
+            {
+              "label": null,
+              "price": 2.5
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/pacamara.jpg"
+        },
+        {
+          "id": "FGLwv1sGHh0xYES2PH5w",
+          "name": "BOURBON",
+          "description": "Bourbon es un café de alta calidad, de rendimiento medio conocido por su sabor dulce.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kf52m5p6?alt=media&token=cdf10648-e0f5-4f4c-86ec-13530eb1d90b",
+          "thumbnail": "https://storage.googleapis.com/bakarta-kustovi.appspot.com/AGCQfuZ8eqqXbpM1svyH/dishes/1kf52m5p6-100x100?GoogleAccessId=firebase-adminsdk-sjvd0%40bakarta-kustovi.iam.gserviceaccount.com&Expires=16725222000&Signature=oxu3F8pA0LxuW9PAyYZuk%2B0kz9UuvVVuBERfBb3i4BUV5vP6ytl1hURssmwuKLZjCAb74sc8I07ddFoma9fzRCFZS848Do%2FRrBX0pvu4LpwSZjpVIrG%2BIqelqO2%2BgFHlxFOPDueWre1b4Epp23MOVLVdGli4z8rrcmz6M7%2BOPHLaCtHEwLSOT7bPf%2F%2FlEsAkxqtFdwzyb3koMsJm2oudV%2FA2NUb%2Fe5tfFAsM%2Bl8ikiKCDAn0%2FCxSyyE1JuBMdL7VGQk%2FVuMDHeQ4uLDvURQW9YiPs%2FSunjXCtOj8qGtRaYTCqRoSUJc3DuzGOkMXdZjEw21sU3tnQoNVV9IGErVvqQ%3D%3D",
+          "prices": [
+            {
+              "label": null,
+              "price": 2.5
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/bourbon.jpg"
+        },
+        {
+          "id": "daWKc3Oo149PdEucP6Na",
+          "name": "MOCCA",
+          "description": "Delicioso e intenso chocolate, con café espresso y leche al vapor, coronado con crema de chocolate.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kf52vnnb?alt=media&token=786a7c06-6047-471d-8f3a-b7a6852e289d",
+          "thumbnail": "https://storage.googleapis.com/bakarta-kustovi.appspot.com/AGCQfuZ8eqqXbpM1svyH/dishes/1kf52vnnb-100x100?GoogleAccessId=firebase-adminsdk-sjvd0%40bakarta-kustovi.iam.gserviceaccount.com&Expires=16725222000&Signature=N%2Be5fJtdgE0wexAudNMq8ZuqySd%2FiRtd34dUC7n62DoNA7e6CBme%2FjBqbDTqOfktWi6pV4kq1fIH%2F7e9vyrCQo%2FJQeiE1xiwGHv%2BSi3%2F3%2FN%2FZH%2BQJmQDe2tEXn0j3af6p4NOlAekbcLSyd6%2BKg1oOaxD8bVJh6BI0EpEGyDv46nQ2xQJX2oioUAOWIXkTmQ4pzhkiXMqv81OVWrOs4c6MLY%2F6%2FM7C%2BbAu8mUl2z8whlrUAMgxa8YUhfcb9lk1iWfKJEjuPiH5V3ucfQO6wb7J9BeCX4RiPeham%2B3rPhBJ5wUiMDU2%2BushQjlRc0u%2FinFbBruZIJOiPu0IMqaz%2B03Pw%3D%3D",
+          "prices": [
+            {
+              "label": null,
+              "price": 3
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/mocca.jpg"
+        },
+        {
+          "id": "0ZAfKRXFF7WEWvbBCn1V",
+          "name": "CAPPUCCINO",
+          "description": "Preparado con café expreso y leche montada con vapor para otorgarle cremosidad.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kf531gd2?alt=media&token=24db9464-3e86-405f-b97d-b7a68f1ebb21",
+          "thumbnail": "https://storage.googleapis.com/bakarta-kustovi.appspot.com/AGCQfuZ8eqqXbpM1svyH/dishes/1kf531gd2-100x100?GoogleAccessId=firebase-adminsdk-sjvd0%40bakarta-kustovi.iam.gserviceaccount.com&Expires=16725222000&Signature=KpuqNeAIRIrGuGXsxvH%2BwJ9uqfGu6FPnrImV6MpwYxbXp%2FeUsXNEl5TC35Uv%2ByhSYm%2Blzan4nTMmz92TRSyXOl%2Fgh1TmaBq4SEMN34DUX2HGHeu48tsjQZl5h9wmB%2FbtAz6oFOhoPvPubs49SM6TokI6PPvI6Nq6ixbCHFOi9cTRtj2e4xwfBABeSvEhNaMi3HRdInziYclqhgKGBhMgoCLG%2BellvQASgNhfflTn16rhISLhZYC5H7E5e551vwzBWbR58i5AzkvMVC3fAcHr7hNzrLzHgTuBq9NnDWoonnw5etaUq%2BZuhs6TvGLe1DLmskX%2BKsgJjnpuJQIfPl3bOw%3D%3D",
+          "prices": [
+            {
+              "label": null,
+              "price": 3
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/cappuccino.jpg"
+        },
+        {
+          "id": "bD6RgbtqtwKoNS7uSLnL",
+          "name": "CHAI LATTE",
+          "description": "Es una bebida equilibrada y sumamente energética. Su fuerza se basa en la mezcla de especias y té negro que brindan un aroma y sabor muy exótico",
+          "image": null,
+          "thumbnail": null,
+          "prices": [
+            {
+              "label": null,
+              "price": 3
+            }
+          ],
+          "allergens": []
+        }
+      ]
+    },
+    {
+      "id": "hhReAtxlLFPCbxrOt69U",
+      "name": "LAS PROHIBIDAS 🍻",
+      "order": 6,
+      "items": [
+        {
+          "id": "O0dsf27kOovfl3vvLt4M",
+          "name": "ULTRA MICHELOB",
+          "description": "",
+          "image": null,
+          "thumbnail": null,
+          "prices": [
+            {
+              "label": null,
+              "price": 2.5
+            }
+          ],
+          "allergens": []
+        },
+        {
+          "id": "PeO4pO14ejcl1PVJX7QS",
+          "name": "CORONA",
+          "description": "",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kf53nww6?alt=media&token=a2cc00c6-b765-4418-99ca-093a11e50bc3",
+          "thumbnail": "https://storage.googleapis.com/bakarta-kustovi.appspot.com/AGCQfuZ8eqqXbpM1svyH/dishes/1kf53nww6-100x100?GoogleAccessId=firebase-adminsdk-sjvd0%40bakarta-kustovi.iam.gserviceaccount.com&Expires=16725222000&Signature=jqDF8eD%2B43df3eOGOYLJfQ8UNTl31j%2B0FppFpeCTF0UtoXZG4l6zY45YYea4wUP68k0UBzIE2OIrhb3AWOc%2BwIpveCQtbYNF8t7JtW2q5feWhtHE1%2FoFVlOMv5S6ZMCY9aFALdJM0RGMCxcmLUqgeV2zyxYarKRZg8eezwNSxRf5n9w6tgJHT2sFJ8bqvwsg7twhcrphjVs2GVlnmsn6OAK8Z2kbwaemAzr%2Bz2vMPxu9gPnEy%2BQ2d5wKbLb04xsUlRK41eoSTCaTHrucpDP4p2iHBtgk0HlpINY8MEdjDbEtMpFaDUbhMv30c00CPPBj%2Fp0sydlV%2BcL14F8A0%2Fhvkw%3D%3D",
+          "prices": [
+            {
+              "label": null,
+              "price": 2.5
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/corona.jpg"
+        },
+        {
+          "id": "IaejhTNnW7CYGY8vLQXJ",
+          "name": "PILSENER",
+          "description": "",
+          "image": "https://firebasestorage.googleapis.com/v0/b/bakarta-kustovi.appspot.com/o/AGCQfuZ8eqqXbpM1svyH%2Fdishes%2F1kf53j5wq?alt=media&token=12c4d520-0364-4f09-a80e-2a20151279b2",
+          "thumbnail": "https://storage.googleapis.com/bakarta-kustovi.appspot.com/AGCQfuZ8eqqXbpM1svyH/dishes/1kf53j5wq-100x100?GoogleAccessId=firebase-adminsdk-sjvd0%40bakarta-kustovi.iam.gserviceaccount.com&Expires=16725222000&Signature=m1UnuaikswQbv%2FWVzCmHN6wZ8ZqqqwSOFRmiJPu9oKFygI8%2BWesdQvqLrl7EJYMh1RxGG02I2%2BT2ewpTe%2F4nEhK7CGYtc4%2FvtV%2BstqEcBOygSLNf5dAKYtgchN4dlprvlHUn2AYD4o7dZqDECIbvfO50JH6TWmDMes%2FOUxhKNRY%2F%2B%2FTHAdZXsrdESAijlNg0cFNSre4ZxWBUhrFOXx%2FzF4EmRCKzrAAQ3jUx3fqZoBxdxnavsfpwZKXBiQu1ucbcgrEJbsPaMH1AikTWVTWsecLNpCaT28evKqU9ZOSAnlW21p9k7katHvgSVb7NfwLfz1QcBKUcB%2B05SwRZICbDBQ%3D%3D",
+          "prices": [
+            {
+              "label": null,
+              "price": 1.75
+            }
+          ],
+          "allergens": [],
+          "localImage": "./images/pilsener.jpg"
+        }
+      ]
+    }
+  ],
+  "localLogo": "./images/logo.jpg",
+  "localCover": "./images/cover.jpg"
+}

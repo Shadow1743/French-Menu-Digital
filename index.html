@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Fresh Cup - Menú Digital Exclusivo. Burgers artesanales, alitas, bebidas refrescantes y café de especialidad en Usulután, El Salvador.">
+  <meta name="theme-color" content="#faf8f5">
+  <title>The Fresh Cup • Menú Digital</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="./images/logo.jpg">
+  
+  <!-- Typography: Playfair Display + Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <header class="top-nav" id="topNav">
+    <div class="nav-container">
+      <a href="#hero" class="brand-link" aria-label="Ir al inicio de The Fresh Cup">
+        <img src="./images/logo.jpg" alt="Logo The Fresh Cup" class="brand-logo" onerror="this.style.display='none'">
+        <div class="brand-text">
+          <span class="brand-title">The Fresh Cup</span>
+          <span class="brand-subtitle">Usulután, El Salvador</span>
+        </div>
+      </a>
+
+      <div class="nav-actions">
+        <!-- Live Search Toggle/Input Button -->
+        <div class="search-box-wrapper">
+          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" id="searchInput" class="search-input" placeholder="Buscar en el menú..." autocomplete="off" spellcheck="false">
+          <button id="clearSearchBtn" class="clear-search-btn" aria-label="Limpiar búsqueda" style="display:none;">&times;</button>
+        </div>
+
+        <!-- Theme Toggle -->
+        <button id="themeToggle" class="icon-btn theme-btn" aria-label="Cambiar tema claro u oscuro" title="Cambiar tema">
+          <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Cart / Order Trigger -->
+        <button id="cartTriggerBtn" class="cart-trigger-btn" aria-label="Ver pedido actual">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-2z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+          <span class="cart-btn-label">Pedido</span>
+          <span id="cartCountBadge" class="cart-badge">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Editorial Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="hero-cover-container">
+      <img src="./images/cover.jpg" alt="The Fresh Cup Ambiente" class="hero-cover-img" onerror="this.parentElement.style.display='none'">
+      <div class="hero-cover-overlay"></div>
+    </div>
+    
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="hero-badge-icon">✨</span> ¡Bienvenidos a The Fresh Cup! • Usulután
+      </div>
+      <h1 class="hero-title">The Fresh Cup</h1>
+      <p class="hero-tagline">Hamburguesas de autor, snacks artesanales y café de especialidad servidos con dedicación.</p>
+
+      <div class="hero-meta-list">
+        <a href="https://maps.google.com/?q=13.3450542,-88.4425053" target="_blank" rel="noopener noreferrer" class="meta-item" title="8va calle oriente #15, barrio La Parroquia, Usulután, Usulután">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          <span>8va calle oriente #15, barrio La Parroquia, Usulután, Usulután</span>
+        </a>
+        <a href="tel:+50376468648" class="meta-item">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <span>+503 7646 8648</span>
+        </a>
+        <a href="https://instagram.com/thefreshcup.sv" target="_blank" rel="noopener noreferrer" class="meta-item">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          <span>@thefreshcup.sv</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sticky Category Navigation Bar -->
+  <nav class="categories-nav-sticky" id="categoriesNav" aria-label="Categorías del menú">
+    <div class="categories-scroll" id="categoriesScroll">
+      <!-- Dynamic category tabs inserted here by JS -->
+    </div>
+  </nav>
+
+  <!-- Main Content Menu -->
+  <main class="menu-main-content">
+    <div class="content-container">
+
+      <!-- Active Filter Status & Search summary banner -->
+      <div id="searchSummaryBanner" class="search-summary-banner" style="display:none;">
+        <span id="searchSummaryText">Resultados de búsqueda</span>
+        <button id="resetSearchBtn" class="reset-search-link">Ver todo el menú</button>
+      </div>
+
+      <!-- Menu Categories Container -->
+      <div id="menuCategoriesContainer" class="menu-sections-wrapper">
+        <!-- Populated dynamically by app.js from MENU_DATA -->
+      </div>
+
+      <!-- Empty Search State -->
+      <div id="emptySearchState" class="empty-state" style="display:none;">
+        <div class="empty-icon-box">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            <line x1="8" y1="11" x2="14" y2="11"></line>
+          </svg>
+        </div>
+        <h3 class="empty-title">Sin resultados encontrados</h3>
+        <p class="empty-desc">No encontramos platillos o bebidas con ese término. Intenta con otra palabra como <em>burgers</em>, <em>limonada</em> o <em>alitas</em>.</p>
+        <button id="clearSearchActionBtn" class="btn btn-secondary">Limpiar búsqueda</button>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Floating Mobile Order Bar (shown when items exist in cart) -->
+  <div id="floatingCartBar" class="floating-cart-bar" style="display:none;">
+    <div class="floating-cart-content" id="floatingCartOpenBtn">
+      <div class="floating-cart-info">
+        <span class="floating-cart-badge" id="floatingCartCount">0</span>
+        <span class="floating-cart-title">Tu Pedido</span>
+      </div>
+      <div class="floating-cart-action">
+        <span class="floating-cart-total" id="floatingCartTotal">$0.00</span>
+        <span class="floating-cart-arrow">Ver pedido &rarr;</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cart / Order Slide-Over Drawer -->
+  <div id="cartDrawerBackdrop" class="drawer-backdrop" aria-hidden="true"></div>
+  <aside id="cartDrawer" class="cart-drawer" aria-labelledby="cartDrawerHeading" aria-modal="true" role="dialog">
+    <div class="cart-drawer-header">
+      <div class="cart-drawer-title-group">
+        <h2 id="cartDrawerHeading" class="cart-drawer-title">Tu Pedido</h2>
+        <span id="cartDrawerCount" class="cart-drawer-subtitle">0 productos seleccionados</span>
+      </div>
+      <button id="closeCartBtn" class="icon-btn close-btn" aria-label="Cerrar pedido">&times;</button>
+    </div>
+
+    <!-- Cart Items List -->
+    <div id="cartItemsContainer" class="cart-drawer-body">
+      <!-- Populated dynamically by app.js -->
+    </div>
+
+    <!-- Cart Footer with WhatsApp submission -->
+    <div class="cart-drawer-footer" id="cartFooter">
+      <div class="cart-notes-group">
+        <label for="orderNotes" class="cart-notes-label">Instrucciones o notas adicionales (opcional):</label>
+        <textarea id="orderNotes" class="cart-notes-input" placeholder="Ej: Sin cebolla, salsas aparte, empacar para llevar..." rows="2"></textarea>
+      </div>
+
+      <div class="cart-summary-group">
+        <div class="summary-line">
+          <span>Subtotal</span>
+          <span id="cartSubtotal" class="summary-amount">$0.00</span>
+        </div>
+        <div class="summary-line total-line">
+          <span>Total Estimado</span>
+          <span id="cartTotal" class="summary-total-amount">$0.00</span>
+        </div>
+      </div>
+
+      <div class="cart-disclaimer">
+        <svg class="cart-disclaimer-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="12" y1="8" x2="12" y2="12"></line>
+          <line x1="12" y1="16" x2="12.01" y2="16"></line>
+        </svg>
+        <span>Los pedidos están sujetos a confirmación de disponibilidad. El envío, si aplica, se cotiza aparte.</span>
+      </div>
+
+      <button id="sendWhatsappBtn" class="btn btn-whatsapp">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.599 2.679-.702c.97.527 1.77.782 2.781.782h.005c3.182 0 5.768-2.587 5.768-5.766.001-3.182-2.585-5.766-5.773-5.766zm9.969 5.766c0 5.505-4.474 9.98-9.974 9.98-1.741 0-3.376-.453-4.808-1.246l-5.218 1.368 1.393-5.088c-.896-1.498-1.397-3.238-1.397-5.014 0-5.506 4.474-9.98 9.974-9.98 5.5 0 9.974 4.474 9.974 9.98zm-1.874 0c0-4.474-3.636-8.106-8.1-8.106-4.463 0-8.1 3.632-8.1 8.106 0 1.554.444 3.008 1.218 4.254l-.794 2.899 2.973-.78c1.205.717 2.607 1.127 4.103 1.127 4.464 0 8.1-3.632 8.1-8.106zm-4.343 3.693c-.22-.11-1.302-.642-1.503-.716-.202-.073-.349-.11-.496.11-.147.22-.569.716-.698.863-.128.147-.257.165-.477.055-.22-.11-.93-.343-1.772-1.094-.655-.584-1.097-1.306-1.226-1.526-.128-.22-.014-.339.096-.449.099-.099.22-.257.33-.385.11-.128.147-.22.22-.367.073-.147.037-.275-.018-.385-.055-.11-.496-1.192-.679-1.633-.179-.43-.36-.372-.496-.379-.128-.007-.275-.008-.422-.008-.147 0-.385.055-.587.275-.202.22-.77.752-.77 1.834s.789 2.127.899 2.274c.11.147 1.55 2.366 3.755 3.318.524.227.933.362 1.253.464.527.167 1.006.144 1.385.087.422-.063 1.302-.532 1.485-1.045.183-.513.183-.953.128-1.045-.055-.092-.202-.147-.422-.257z"/>
+        </svg>
+        <span>Pedir por WhatsApp</span>
+      </button>
+
+      <button id="clearCartBtn" class="clear-cart-link">Vaciar pedido</button>
+    </div>
+  </aside>
+
+  <!-- Dish Detail Modal -->
+  <div id="dishModalBackdrop" class="modal-backdrop" aria-hidden="true"></div>
+  <div id="dishModal" class="dish-modal" role="dialog" aria-modal="true" aria-labelledby="modalDishTitle">
+    <button id="closeModalBtn" class="icon-btn close-modal-btn" aria-label="Cerrar detalle">&times;</button>
+    
+    <div class="modal-image-wrapper" id="modalImageContainer">
+      <img id="modalDishImg" src="" alt="" class="modal-dish-img">
+    </div>
+
+    <div class="modal-content-wrapper">
+      <div class="modal-header-meta">
+        <span id="modalCategoryBadge" class="category-badge">Categoría</span>
+        <span id="modalDishPrice" class="modal-price">$0.00</span>
+      </div>
+
+      <h3 id="modalDishTitle" class="modal-dish-title">Nombre del Producto</h3>
+      <p id="modalDishDescription" class="modal-dish-desc">Descripción del producto</p>
+
+      <!-- Variations Selector inside Modal -->
+      <div id="modalVariationsContainer" class="modal-variations-box" style="display:none;">
+        <span class="variations-label">Selecciona el tamaño o porción:</span>
+        <div id="modalVariationsPills" class="variations-pills-row"></div>
+      </div>
+
+      <div class="modal-actions-row">
+        <button id="modalAddToCartBtn" class="btn btn-primary btn-block">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+          </svg>
+          <span id="modalAddToCartLabel">Agregar a mi pedido</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toastNotification" class="toast-notification" role="status" aria-live="polite">
+    <span id="toastMessage">Producto agregado</span>
+  </div>
+
+  <!-- Editorial Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="./images/logo.jpg" alt="Logo The Fresh Cup" class="footer-logo" onerror="this.style.display='none'">
+          <h3 class="footer-brand-title">The Fresh Cup</h3>
+          <p class="footer-brand-desc">Pasión por la buena comida, las hamburguesas artesanales y el auténtico café salvadoreño.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Contacto Directo</h4>
+          <ul class="footer-list">
+            <li><a href="tel:+50376468648">📞 +503 7646 8648</a></li>
+            <li><a href="mailto:thefreshcupsv@gmail.com">✉️ thefreshcupsv@gmail.com</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Ubicación</h4>
+          <p class="footer-text">8va calle oriente #15, barrio La Parroquia, Usulután, Usulután</p>
+          <a href="https://maps.google.com/?q=13.3450542,-88.4425053" target="_blank" rel="noopener noreferrer" class="footer-link">
+            Abrir en Google Maps &rarr;
+          </a>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Síguenos</h4>
+          <div class="footer-social-row">
+            <a href="https://instagram.com/thefreshcup.sv" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+            <a href="https://www.facebook.com/thefreshcup.sv/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear"></span> The Fresh Cup. Todos los derechos reservados.</p>
+        <p class="footer-subtext">Precios en dólares estadounidenses (USD $). Los pedidos están sujetos a confirmación de disponibilidad y el envío, si aplica, se cotiza aparte.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="./menu-data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
